@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<html lang="lt">
+
+<head>
+
+    <title>Portland</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="page">
+        <!------------------------ HEADER---------------------------------->
+        <header>
+            <!--pradzia-->
+            <div class="nav-header">
+                <div class="nav-box">
+
+                    <!--logotipas-->
+
+                    <div class="logo">
+                        <a href="index.html"><img src="images/images/Portland_logo_02.png"  alt="icon"></a>
+                    </div>
+                    <!--meniu pradzia-->
+                    <div class="nav-meniu">
+                        <ul>
+                            <li><a href="index.html">Pradzia</a></li>
+                          <!-- <li><a href="Akcijos.html">Akcijos</a></li>--> 
+                            <li><a href="Verslas.html">Verslas</a></li>
+                            <li><a href="Paslaugos.html">Paslaugos</a></li>
+                            <li><a href="Apie.html">Apie mus</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+        <!---------------------------------MAIN------------------------------->
+
+        <main>
+            <!----------------------BAR-AKCIJOS---------------------------->
+            <div class="bar">
+
+                <div class="slideshow-container">
+                    <div class="mySlides veiksmas">
+
+                        <img src="images/images/iphone_x.jpg" alt="iphone" style="width:100%">
+                        <div class="text">iPhone X
+                            <p>iPhone X – tai visiskai naujas korpusas su istisiniu 5,8 colio „Super Retina“ HD ekranu su HDR ir „True Tone“.</p>
+                        </div>
+
+                    </div>
+                    <div class="mySlides veiksmas">
+
+                        <img src="images/images/msi.jpg" alt="msi" style="width:100%">
+                        <div class="text">MSI GT83VR
+                            <p>MSI GT83VR 6RE "Titan SLI" 013UK 17.3-Inch Gaming Notebook (Black) </p>
+                            <p>Intel i7 6820HK, 32 GB RAM, 256 GB SSD Plus 1 TB HDD, 2 x GTX 1070 8 GB GDDR5 Graphics Card, Windows 10</p>
+                        </div>
+                    </div>
+                    <div class="mySlides veiksmas">
+
+                        <img src="images/images/TV.jpg" alt="tv" style="width:100%">
+                        <div class="text" id="tv">Televizorius Samsung UE55MU6272
+                            <p>Tikrasis 4K UHD televizorius</p>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="taskas" onclick="currentSlide(1)"></span>
+                    <span class="taskas" onclick="currentSlide(2)"></span>
+                    <span class="taskas" onclick="currentSlide(3)"></span>
+                </div>
+
+
+            </div>
+
+
+
+            <!----------Meniu BOX/ prekes pasirinkimas--------------------->
+            <div class="tovari">
+
+                <!--Collapsibles/Accordion-->
+
+                <div class="meniu-box">
+
+                    <button class="btn"> Kompiuteriai</button>
+                    <div class="meniu_atributai" >
+                        <button class="btn_kompai" id="loptop">Loptop</button>
+                        <button class="btn_kompai" id="staliniai">Stalinis</button>
+                        <button class="btn_kompai" id="priedai">Priedai</button>
+
+
+
+
+                    </div>
+                    <button class="btn"> Televizoriai</button>
+                    <div class="meniu_atributai">
+                        <button class="btn_technik">LDC televizoriai</button>
+                        <button class="btn_technik">Plazma televizoriai</button>
+                        <button class="btn_technik">Priedai</button>
+                    </div>
+                </div>
+                <!--container-->
+
+
+                <!------------------Prekes sarasas--------------->
+
+                <div class="price-box">
+                  
+                        <!--<div class="price-1"> <img src="images/images/clock.png" style="width: 100%"></div>
+                        <div class="price-2"><img src="images/images/smart-tv.png" style="width: 100%">2/div>-->
+                        <div class="sarasas-pradzia">
+                            <div class="produktu_box" >
+
+
+
+                                <div class="product loptop" style="width: 100%" id="1">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/loptop/Acer%20Spin1%20sp111-31_1.jpg" alt="acer"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Acer Spin1 sp111-31</a>
+                                    </p>
+                                    <p class="product-desc">Intel® Celeron™ N3350,11.6" Full HD Matinis lieciamas ekranas, 2GB, 32GB SSD, Intel® HD, Windows 10</p>
+                                    <p class="product-price">Kaina: €305,99</p>
+                                </div>
+
+
+                                <div class="product loptop" style="width: 100%" id="2">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/loptop/Aspire%20ES1-524-99LF_2.jpg" alt="aspire"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">ACER, Aspire ES1-524-99LF</a>
+                                    </p>
+                                    <p class="product-desc">AMD Dual-Core A9-9410, 15.6", HD Glare, DDR3L 4GB (1x4), SATA 500GB, DVD/RW, AMD Radeon R5 Graphics, HDMI, WiFi, BT 4.0, Gbit LAN, 3 cell batt., SD card reader, Crystal Eye webcam, Linux, Black</p>
+                                    <p class="product-price">Kaina: €285,75</p>
+                                </div>
+
+                                <div class="product loptop" style="width: 100%" id="3">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/loptop/HP%20250%20G5_1.jpg" alt="hp"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">HP 250 G5</a>
+                                    </p>
+                                    <p class="product-desc"> Intel® Celeron™ N3060,15.6" Matinis ekranas, 4GB, 128GB SSD, DVD+-RW, Intel® HD</p>
+                                    <p class="product-price">Kaina: €249.99</p>
+                                </div>
+
+
+
+                                <div class="product loptop" style="width: 100%" id="4">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/loptop/nspiron%2015%203552_1.jpg" alt="inspiron"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Dell Inspiron 15 3552</a>
+                                    </p>
+                                    <p class="product-desc">Intel® Pentium® N3710, 15.6" ekranas, 4 GB, 500 GB, Intel® HD, DVD+-RW, Garantija 24 menesiai</p>
+                                    <p class="product-price">Kaina: €295.99</p>
+                                </div>
+                                <div class="product loptop" style="width: 100%" id="5">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/loptop/SmartBook%20116C_2.jpg" alt="SmartBook"></a>
+
+                                        <p class="product-title">
+                                            <a href="#">Prestigio SmartBook 116C</a>
+                                        </p>
+                                        <p class="product-desc">11.6" (1920*1080) IPS (anti-Glare), Windows 10 Home, up to 1.92GHz Quad Core Intel Atom Z8350, 2GB DDR</p>
+                                        <p class="product-price">Kaina: €202,34</p>
+                                    </div>
+                                </div>
+                                <div class="product loptop" style="width: 100%" id="6">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/loptop/SmartBook%20141C_1.jpg" alt="SmartBook"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Prestigio SmartBook 141C</a>
+                                    </p>
+                                    <p class="product-desc">14.1"(1920*1080) IPS (anti-Glare), Windows 10 Home 64 bit+Office 365 1 Year, up to 1.92GHz Quad Core Intel Atom Z8350, 4GB DDR</p>
+                                    <p class="product-price">Kaina: €252,67</p>
+                                </div>
+                       
+                                <div class="product staliniai" style="width: 100%" id="7">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/staliniai/J1800.jpg" alt="J1800"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Kompiuteris “Ekonomiskas SSD”</a>
+                                    </p>
+                                    <p class="product-desc">Intel® Celeron® J1800 / 2GB DDR3 1600Mhz / 120GB SSD / Intel® HD Graphics / 160201_w</p>
+                                    <p class="product-price">Kaina: €139,99</p>
+                                </div>
+
+                                <div class="product staliniai" style="width: 100%" id="8">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/staliniai/G4560.jpg" alt="G4560"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Kompiuteris "ZAIDIMAMS E"</a>
+                                    </p>
+                                    <p class="product-desc">Intel® Pentium® G4560, 4GB DDR4, 1TB, GeForce GTX1050 2GB, 160231_w</p>
+                                    <p class="product-price">Kaina: €349,99</p>
+                                </div>
+
+                                <div class="product staliniai" style="width: 100%" id="9">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/staliniai/X4%20860K.jpg" alt="X420860K"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Kompiuteris "Zaidimams X4"</a>
+                                    </p>
+                                    <p class="product-desc">AMD Athlon™ X4 860K 3.7GHz~4.0GHz (keturiu branduoliu procesorius ), 8GB DDR3, 1000GB 7200RPM, GeForce™ GTX1050 2GB, DVD+-RW, USB 3.0, HDMI, “Powered by ASUS”, 160209_w</p>
+                                    <p class="product-price">Kaina: €399,99</p>
+                                </div>
+                                <div class="product staliniai" style="width: 100%" id="10">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/staliniai/Ma%C5%BEylis%20i3%20Optane_1.jpg" alt="Mazylis"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Kompiuteris "Mazylis i3 Optane"</a>
+                                    </p>
+                                    <p class="product-desc">Intel® Core™ i3-7100U, 4GB DDR4, 1TB + 16GB Intel® Optane™ Memory, Intel® HD Graphics 620, USB 3.1, HDMI</p>
+                                    <p class="product-price">Kaina: €399.99</p>
+                                </div>
+                                <div class="product staliniai" style="width: 100%" id="11">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/staliniai/EKSTREMALUI%20X6%20RR.jpg" alt="X6RR"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Kompiuteris "EKSTREMALUI X6 RR"</a>
+                                    </p>
+                                    <p class="product-desc">AMD x6 Bulldozer FX-6300 (3.5Ghz / sesiu branduoliu procesorius ), 8GB DDR3, 1TB, GeForce GTX 1050 Ti 4GB, DVD+-RW, HDMI, 160214_w</p>
+                                    <p class="product-price">Kaina: €499.99</p>
+                                </div>
+                                <div class="product staliniai" style="width: 100%" id="12">
+                                    <div class="product-img">
+                                        <a href="#"><img src="images/images/staliniai/RYZEN%201300x.jpg" alt="Ryzen1300x"></a>
+                                    </div>
+                                    <p class="product-title">
+                                        <a href="#">Kompiuteris "RYZEN 1300x"</a>
+                                    </p>
+                                    <p class="product-desc">AMD Ryzen™ 3 1300X, 8GB DDR4, 1TB, GeForce™ GTX 1050 Ti 4GB, Fractal Design , 170392_w</p>
+                                    <p class="product-price">Kaina: €549,99</p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+                  
+                </div>
+                <!--price box-->
+
+            </div>
+            <!--tovari-->
+            <!----------------------------FOOTER--------------------------------->
+
+            <footer>
+                <div class="niznij-box">
+                    <div class="logo-niz">
+                        <a href="index.html"> <img src="images/images/Portland_logo_02.png" alt="icon"></a>
+                    </div>
+
+                    <div class="icons">
+                        <a href="https://twitter.com/twitre"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://wwww.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+                        <a href="https://www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/people"> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+
+
+                    </div>
+
+                    <div class="copyright">
+                        <p>Krc padare Eduardas @2017</p>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </main>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
